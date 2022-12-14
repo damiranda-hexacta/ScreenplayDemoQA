@@ -40,11 +40,6 @@ public class FillStudentRegistrationForm implements Task {
                 Enter.theValue(properties.getProperty("selectCity")).into(SELECT_CITY_INPUT).thenHit(Keys.ENTER),
                 JavaScriptClick.on(SUBMIT_BUTTON)
         );
-        try {
-            Thread.sleep(5000);
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
     }
 
     public static FillStudentRegistrationForm success(){

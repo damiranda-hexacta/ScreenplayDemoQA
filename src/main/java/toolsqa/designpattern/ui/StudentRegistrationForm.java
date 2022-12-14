@@ -19,9 +19,4 @@ public class StudentRegistrationForm extends PageObject {
     public static final Target SELECT_CITY_INPUT = Target.the("Select city input").located(By.id("react-select-4-input"));
     public static final Target SUBMIT_BUTTON = Target.the("Submit button").located(By.id("submit"));
     public static final Target FULL_NAME_VALIDATION = Target.the("Full name validation table").locatedBy("(//td)[2]");
-
-
-
-
-
 }
